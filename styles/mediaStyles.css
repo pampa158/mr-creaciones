@@ -146,6 +146,11 @@
     }
 }
 
+@media (width <= 600px) {
+    .btn {
+        display: none;
+    }
+}
 
 /* Responsividad Mobile-L */
 @media (width <= 425px) {
@@ -153,7 +158,7 @@
         height: 10vh;
     }
     .MR-logo {
-        margin-left: 2vh;
+        margin-left: 2vh;git
         margin-top: 5px;
         height: 9vh;
     }
